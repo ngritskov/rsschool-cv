@@ -9,6 +9,7 @@ h1 {
 }
 h2 {
     font-size: 25px;
+    text-decoration: none;
     }
 a {
     color: blue;
@@ -66,8 +67,8 @@ footer {
 .nav-link:hover{
     color: blue;
 }
-.section.title{
-    text-decoration-style: underline;
+.section-title{
+    text-decoration: underline;
 }
 .section{
     display: flex;

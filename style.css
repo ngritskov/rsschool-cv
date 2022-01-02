@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth; 
+  }
+h1 {
+    font-size: 30px;
+}
+h2 {
+    font-size: 25px;
+    }
+a {
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover {
+    color: blue;
+    font-weight: bold;
+}
+header {
+    background: rgb(222, 241, 44)
+}
+body {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+}
+footer {
+    display: inline-block;
+    flex-direction: row;
+    background: rgb(222, 241, 44);
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    margin: auto;
+    align-items: stretch;
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    list-style: none;
+}
+.nav-link{
+    padding: 0 10px;
+  line-height: 50px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  transition: .4s
+}
+.nav-link:hover{
+    color: blue;
+}
+.section.title{
+    text-decoration-style: underline;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 50%;
+    justify-content: center;
+}
+.section-right{
+    display: flex;
+    margin: 0 auto;
+    width: 10%;
+}
+.section-left{
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+}
+@media (max-width: 800px) {
+    .section {
+      width: 100%;
+    }
+  }

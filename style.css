@@ -66,8 +66,8 @@ footer {
 .nav-link:hover{
     color: blue;
 }
-.section.title{
-    text-decoration-style: underline;
+.section-title{
+    text-decoration: underline;
 }
 .section{
     display: flex;
